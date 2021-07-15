@@ -1,0 +1,22 @@
+{
+	"name": "TickerTracker",
+	"version": "1.0",
+	"description":"Quickly keep track of the stocks you care about.",
+	"permissions": ["declarativeContent", "activeTab", "storage","https://www.alphavantage.co/"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent":false
+	},
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+		"16": "16_px_icon.ico",
+		"32": "32_px_icon.png"
+		}
+	},
+	"icons": {
+		"16": "16_px_icon.ico",
+		"32": "32_px_icon.png"
+	},
+	"manifest_version": 2
+}

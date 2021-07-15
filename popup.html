@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+		</style>
+		<link rel="stylesheet" href="popup.css">
+		<script type="text/javascript" src="chart.js"></script>
+		<script type="text/javascript" src="popup.js" ></script>
+	</head>
+	
+	<body>
+		<input type="text" id="Fd_SearchTickers">
+		<button id="Btn_SearchTickers">Search</button>
+		<div id="checkboxes"> 
+			<span>High</span><input class = "lineCheck" type="checkbox" id="chk_ShowHighs" checked>
+			<span>Low</span><input class = "lineCheck" type="checkbox" id="chk_ShowLows" checked>
+			<span>Open</span><input class = "lineCheck" type="checkbox" id="chk_ShowOpens" checked>
+			<span>Close</span><input class = "lineCheck" type="checkbox" id="chk_ShowCloses" checked>
+		</div>
+		<span id="Fd_Msg"></span>
+		<canvas id="chart"></canvas>
+		<span id="Fd_StockInfo"></span>
+	</body>
+</html>

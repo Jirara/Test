@@ -1,0 +1,14 @@
+button {
+	height: 30px;
+	width: 60px;
+	outline:none;
+}
+#Fd_SearchTickers { height:25px; }
+#chart { 
+	height:800px; 
+	width: 700px;
+	display: none;
+	}
+.checkboxes {
+	
+}
